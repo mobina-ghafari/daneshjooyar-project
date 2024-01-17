@@ -106,6 +106,120 @@ a:hover{
     
 }
 
+.my-tooltip{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptext{
+    display: none;
+    width: 500px;
+    background-color: white;
+    box-shadow: 1px 2px 5px #999;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 15px;
+    padding: 20px;
+}
+
+.my-tooltip-border{
+    border-bottom: 1px solid #888;
+    padding-bottom: 10px;
+}
+
+.my-tooltip-span{
+    padding-top: 10px;
+    align-items: center;
+}
+
+.tooltiptext::after{
+    position: absolute;
+}
+
+.my-tooltip:hover .tooltiptext{
+    display: block;
+}
+
+.my-login-tooltip{
+    display: inline-block;
+    position: relative;
+}
+
+.my-login-tooltiptext{
+    display: none;
+    width: 200px;
+    background-color: white;
+    box-shadow: 1px 2px 5px #999;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 8px;
+    padding: 5px;
+}
+
+.my-login-tooltiptext::after{
+    position: absolute;
+
+}
+
+.my-login-tooltip:hover .my-login-tooltiptext{
+    display: block;
+}
+
+.my-login-style{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.my-login-style:hover{
+    background-color:  rgba(124, 124, 124, 0.326);
+}
+
+.my-form-tooltip{
+    display: inline-block;
+    position: relative;
+}
+
+.my-form-tooltiptext{
+    display: none;
+    width: 700px;
+    background-color: white;
+    box-shadow: 1px 2px 5px #999;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+}
+
+.my-form-tooltiptext::after{
+    position: absolute;
+}
+
+.my-form-tooltip:hover .my-form-tooltiptext{
+    display: block;
+}
+
+.my-form-tooltip-style{
+    margin: 15px;
+    padding: 15px;
+    background-color: #ebedfa;
+    border-radius: 10px;
+}
+
+.my-form-tooltip-btn{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.my-form-tooltip-btn:hover{
+    color: #304aca;
+}
+
 /*NAVBAR TOP*/
 /*NAV*/
 /*HEADER*/
