@@ -1,0 +1,111 @@
+@font-face {
+    font-family: yekan;
+    src: url(../font/iranyekanwebbold.ttf);
+}
+
+*{
+    direction: rtl;
+    font-family: yekan;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*HEADER*/
+/*NAV*/
+/*NAVBAR TOP*/
+@media(max-width : 768px) {
+    .my-navbar-brand{
+        display: none;
+    }
+
+    .my-navbar-form{
+        display: none;
+    }
+
+    .my-navbar-ul{
+        display: none;
+    }
+}
+
+.my-navbar-form{
+    background-color:  #f5f5f5;
+    padding: 13px 10px;
+    border-radius: 10px;
+}
+
+.my-navbar-search{
+    background: none;
+    border: none;
+    width: 700px;
+}
+
+.my-navbar-search:hover{
+    border: none;
+}
+
+.my-navbar-search:focus{
+    border: none;
+    outline: none;
+}
+
+
+.my-navbar-search-icon{
+    color: #304aca;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.7s;
+}
+
+.my-navbar-search-icon:hover{
+    background-color:  rgba(124, 124, 124, 0.326);
+    border-radius: 10px;
+}
+
+.my-navbar-icon-shop{
+    color: #304aca;
+}
+
+.my-navbar-li-shop{
+    transition: all 0.7s;
+}
+
+.my-navbar-li-shop:hover{
+    background-color:  rgba(124, 124, 124, 0.326);
+    border-radius: 10px;
+}
+
+.my-navbar-icon-user{
+    color: #304aca;
+}
+
+.my-navbar-li{
+    border-right: 3px solid #f5f5f5;
+}
+
+@media(max-width:1024px){
+    .my-navbar-brand{
+        width: 40px;
+    }
+
+    .my-navbar-search{
+        width: 400px;
+    }
+
+    
+}
+
+/*NAVBAR TOP*/
+/*NAV*/
+/*HEADER*/
