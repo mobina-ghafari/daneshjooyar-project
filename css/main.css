@@ -98,6 +98,10 @@ a:hover{
     .my-all-items{
         display: none;
     }
+
+    .my-nav{
+        box-shadow: 0px 6px 30px rgba(0,0,0,.06);
+    }
 }
 
 @media(max-width : 320px){
@@ -329,6 +333,47 @@ a:hover{
 
 .my-item-border{
     border-right: 2px solid rgba(124, 124, 124, 0.326);
+}
+
+.my-grouping-tooltip{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.my-grouping-tooltiptext{
+    display: none;
+    width: 300px;
+    background-color: white;
+    box-shadow: 1px 2px 5px #999;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    padding: 7px;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.my-grouping-tooltiptext::after{
+    position: absolute;
+}
+
+.my-grouping-tooltip:hover .my-grouping-tooltiptext{
+    display: block;
+}
+
+.my-grouping-item-style{
+    display: flex;
+    padding: 10px 5px;
+    color: #555;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.my-grouping-item-style:hover{
+    background-color: rgba(48, 74, 202, 0.1);
+    color: #304aca;
 }
 /*NAVBAR BOTTOM*/
 /*NAV*/
