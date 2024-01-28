@@ -379,7 +379,7 @@ a:hover{
 /*NAV*/
 
 .my-header{
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -480,3 +480,66 @@ a:hover{
     }
 }
 /*HEADER*/
+/*courses*/
+
+
+.my-carousel-item{
+    background: linear-gradient(237.67deg, #D4A423 1.73%, #F1E253 27.56%, #D4A423 75.41%);
+    width: 96% !important;
+    margin: auto;
+    height: 400px;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.owl-stage-outer{
+    direction: ltr;
+}
+
+.my-carousel-img{
+    border-radius: 10px;
+}
+
+.my-carousel-text{
+    background-color: white;
+    height: 175px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.my-carousel-btn{
+    margin-top: auto;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #e3c574;
+    transition: all .7s;
+}
+
+.my-carousel-btn:hover{
+    background: linear-gradient(268.69deg, #D4A524 5.76%, #EEDC4E 45.98%, #D4A524 97.05%);
+}
+
+.my-carousel-star{
+    background-color: #d6a927;
+    padding: 8px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    top: 5px;
+    color: white;
+}
+
+.my-carousel-off{
+    background-color: #f32e2e;
+    position: absolute;
+    top: 6px;
+    left: 15px;
+    border-radius: 7px;
+    color: white;
+    padding: 5px;
+}
+/*courses*/
