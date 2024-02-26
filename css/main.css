@@ -485,17 +485,14 @@ a:hover{
 
 .my-carousel-item{
     background: linear-gradient(237.67deg, #D4A423 1.73%, #F1E253 27.56%, #D4A423 75.41%);
-    width: 96% !important;
+    width: 100% !important;
     margin: auto;
-    height: 400px;
+    max-height: 370px;
     padding: 6px;
     border-radius: 10px;
     transition: all .7s;
 }
 
-.owl-stage-outer{
-    direction: ltr;
-}
 
 .my-carousel-img{
     border-radius: 10px;
@@ -505,6 +502,7 @@ a:hover{
     background-color: white;
     height: 175px;
     margin-top: 10px;
+    padding: 5px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -538,7 +536,7 @@ a:hover{
     background-color: #f32e2e;
     position: absolute;
     top: 7px;
-    left: 15px;
+    left: 8px;
     border-radius: 7px;
     color: white;
     padding: 5px;
@@ -559,6 +557,28 @@ a:hover{
 
 .my-carousel-item:hover .my-carousel-off-text{
     display: block;
+}
+
+@media(width:1024px){
+    .my-carousel-btn{
+        font-size: 10px;
+    }
+
+    .my-carousel-text-size{
+        font-size: 14px;
+    }
+}
+
+@media(width:768px){
+    .my-carousel-btn{
+        font-size: 10px;
+    }
+}
+
+@media(width:320px){
+    .my-carousel-btn{
+        font-size: 10px;
+    }
 }
 /*courses*/
 /*CARDS*/
